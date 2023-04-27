@@ -18,6 +18,8 @@ def khawarizmi():
         imag_part = (-discriminant)**0.5 / (2*a)
         print("The roots are complex numbers:", real_part + imag_part, "and", real_part - imag_part)
 
+# possible to write it also in one line using a lambda function
 
+khawarizmi = lambda a, b, c: (-b+cmath.sqrt(b**2-4*a*c))/(2*a), (-b-cmath.sqrt(b**2-4*a*c))/(2*a)
 
 khawarizmi()
