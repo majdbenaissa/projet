@@ -20,7 +20,8 @@ def khawarizmi():
         
         khawarizmi()
 
-# possible to write it also in one line using a lambda function
+# possible to write it also in one line using a lambda function 
+#this is the fastest way to do it 
 
 khawarizmi = lambda a, b, c: (-b+cmath.sqrt(b**2-4*a*c))/(2*a), (-b-cmath.sqrt(b**2-4*a*c))/(2*a)
 
